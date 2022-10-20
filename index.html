@@ -1,42 +1,147 @@
 <!DOCTYPE html>
 <html lang="en">
- <head>
+<head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome Princess !</title>   <style>
-        body{
-         display : flex; 
-         flex-direction: column;
-         justify-content: center;
-         align-items: center;   
-         }
-      </style>   
- </head>
- <body style ="background-color: pink;">
-  
-   <h1 >Hello Princess! you are the cutest girl in the world!! </h1>
-   
-   <img src= "cutegirl.jpg" alt ="its a cute anime girl cat"/>
-   <p> <b><h3>You are literally the best girl in the world and you derserve all the happiness.You make daddy so proud of you &#128150 &#128150!!! 
-   </b></h3></p>
-   <p><h3>Keep fighting and surviving and trying your best. You came so far with your own strength. dont ever give up!!</h3></p>
-   <table>
-    <tr>
-      <td><img src="bunny2.jpg"/></td>
-      <td><img src="bunny.jpg"/></td>
-    </tr>
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Red+Hat+Display:wght@500;700;900&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!--navigation bar-->
+    <header>
+        <div class ="logo">
+            <img src="#" alt="devjane">
+        </div>
+        <button class ="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
+                <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+                <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!--Introducrtion-->
+    <section class="intro" id="home">
+        <h1 class="section__title section__title--intro">
+            Hi, I am <strong> ALLAL Nadir</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--into">Automation and control system engineer</p>
+        <img src="img.jpg" alt="a picture of Allal nadir" class="intro__img">
+    </section>
+
     
-   </table>
-  <p><h2> &#128157 &#128157 &#128157 Choose your surprise &#128157 &#128157 &#128157</h2></p>
-   <a href="https://tenor.com/view/cute-cat-oh-yeah-awesome-cats-amazing-gif-15805236" target="_blank"> <h2> Marshmallow</h2></a>
-   <a href="https://tenor.com/view/kawaii-cat-gif-23662145" target="_blank"> <h2>  CottonCandy </h2></a>
-   <a href="https://tenor.com/view/cute-cat-gif-23325548" target="_blank"> <h2>  Strawberries</h2></a>
+    <!--sercies-->
+    <section class="my-services" id="services">
+        <h2 class="section__title section__title--services"> What I Do</h2>
+        
+        <div class="services">
+            
+            <div classs="service">
+                <h3>Design + development</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, perferendis. Dignissimos consequatur hic iure, possimus rerum dolorum similique dicta sunt veniam illo error voluptas ipsam odit nulla repellendus laborum quas.</p>
+            </div> <!-- close service-->
+        
+            
+            <div classs="Service">
+                    <h3>E-commerce</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore qui totam, maiores delectus itaque fuga aliquid, nisi odit id cupiditate quaerat tenetur provident voluptatem ad alias eligendi excepturi distinctio maxime.</p>
+            </div>  <!-- close serive-->
+    
+        
+            <div classs="service">
+                    <h3>WordPress</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad beatae ipsum similique tenetur illo esse aperiam suscipit dolore at odit quae quo voluptas, fuga autem optio. Voluptates rerum non nam?</p>
+            </div> <!--close service-->
+        </div>
+        
+        <a href="#work" class="btn">My work</a>
 
-   <p>I know daddy is super late with your birthday gift but i hope this makes up for it.Love ya rayane &#128536</p>
- 
- 
- 
-  </body>
+    </section>
 
+    <!--about me-->
+    <section class="about-me" id="about">
+        <h2 class="section__title section__title--about">Who I am</h2>
+        <p class="section__subtitle section__subtitle--about">A freelancer And stuff and stuff and billionair</p>
+
+        <div class="about-me__body">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius quaerat laborum debitis deleniti, inventore quibusdam doloribus eligendi odit iste dolor voluptatum nemo perferendis labore a. Fuga quia nesciunt eligendi nam.</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum exercitationem nostrum voluptatem accusamus dolore odit rem, minus dolores vitae illum in error fugiat eum magnam iste, quam facere iusto dolorem!</p>
+        </div>
+
+        <img src="oliver.jpg" alt="Image of allal nadir" class="about-me__img">
+    </section>
+
+    <!--mywork-->
+    <section class="my-work" id="work">
+        <h2 class="section__title section__title--work">My work</h2>
+        <p class="section__subtitle section__subtitle--work">A selection of my range of work</p>
+        
+        <div class="portfolio">
+            <!--portfolio item 01-->
+            <a href="portfolio-item.html" class="portfolio__item">
+                <img src="image 1.jpg" alt="" class="portfolio__img">
+            </a>
+             <!--portfolio item 02-->
+             <a href="#" class="portfolio__item">
+                <img src="image 2.jpg" alt="" class="portfolio__img">
+            </a>
+             <!--portfolio item 03-->
+             <a href="#" class="portfolio__item">
+                <img src="image 3.jpg" alt="" class="portfolio__img">
+            </a>
+             <!--portfolio item 04-->
+             <a href="#" class="portfolio__item">
+                <img src="image 4.jpg" alt="" class="portfolio__img">
+            </a>
+             <!--portfolio item 05-->
+             <a href="#" class="portfolio__item">
+                <img src="image 5.jpg" alt="" class="portfolio__img">
+            </a>
+             <!--portfolio item 06-->
+             <a href="#" class="portfolio__item">
+                <img src="image 6.jpg" alt="" class="portfolio__img">
+            </a>
+
+        </div>
+    </section>
+    
+    <!--footer-->
+    <footer class="footer">
+        <a href="#" class="footer__link">hello@nadir.dev</a>
+        <ul class="social-list">
+            <li class="social-list__item">
+                <a class="social-list__link"  href="#">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="#">
+                    <i class="fa-brands fa-codepen"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="#">
+                    <i class="fa-brands fa-twitter"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="#">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+            </li>        
+        </ul>
+    </footer>    
+
+    <script src="script.js"></script>
+</body>
 </html>
